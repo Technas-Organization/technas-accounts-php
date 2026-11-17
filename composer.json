@@ -1,0 +1,16 @@
+{
+  "name": "technas/accounts",
+  "description": "Technas Accounts: resolve, read and manage your app's users from PHP. The thin package for accounts only; technas/technas bundles every product.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["technas", "accounts", "users", "sign-in", "whatsapp", "openid connect"],
+  "homepage": "https://github.com/Technas-Organization/technas-accounts-php",
+  "require": {
+    "php": ">=8.1",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": { "psr-4": { "Technas\\Accounts\\": "src/" } },
+  "scripts": { "test": "php tests/run.php" },
+  "minimum-stability": "stable"
+}
